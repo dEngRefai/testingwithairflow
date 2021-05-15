@@ -1,0 +1,1134 @@
+[2021-05-15 07:05:41,838] {scheduler_job.py:182} INFO - Started process (PID=801) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:05:41,840] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:05:41,840] {logging_mixin.py:104} INFO - [2021-05-15 07:05:41,840] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:05:43,111] {logging_mixin.py:104} INFO - [2021-05-15 07:05:43,109] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:05:43,112] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:05:43,128] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 1.294 seconds
+[2021-05-15 07:06:13,381] {scheduler_job.py:182} INFO - Started process (PID=828) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:06:13,383] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:06:13,384] {logging_mixin.py:104} INFO - [2021-05-15 07:06:13,384] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:06:13,759] {logging_mixin.py:104} INFO - [2021-05-15 07:06:13,758] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:06:13,759] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:06:13,776] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.399 seconds
+[2021-05-15 07:06:43,948] {scheduler_job.py:182} INFO - Started process (PID=855) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:06:43,949] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:06:43,950] {logging_mixin.py:104} INFO - [2021-05-15 07:06:43,950] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:06:44,377] {logging_mixin.py:104} INFO - [2021-05-15 07:06:44,377] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:06:44,378] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:06:44,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.450 seconds
+[2021-05-15 07:07:14,680] {scheduler_job.py:182} INFO - Started process (PID=882) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:07:14,681] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:07:14,682] {logging_mixin.py:104} INFO - [2021-05-15 07:07:14,682] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:07:15,061] {logging_mixin.py:104} INFO - [2021-05-15 07:07:15,061] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:07:15,062] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:07:15,078] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.402 seconds
+[2021-05-15 07:07:45,382] {scheduler_job.py:182} INFO - Started process (PID=909) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:07:45,384] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:07:45,385] {logging_mixin.py:104} INFO - [2021-05-15 07:07:45,385] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:07:45,778] {logging_mixin.py:104} INFO - [2021-05-15 07:07:45,777] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:07:45,778] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:07:45,802] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.424 seconds
+[2021-05-15 07:08:16,429] {scheduler_job.py:182} INFO - Started process (PID=936) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:08:16,431] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:08:16,436] {logging_mixin.py:104} INFO - [2021-05-15 07:08:16,432] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:08:17,100] {logging_mixin.py:104} INFO - [2021-05-15 07:08:17,099] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:08:17,100] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:08:17,122] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.700 seconds
+[2021-05-15 07:08:47,856] {scheduler_job.py:182} INFO - Started process (PID=963) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:08:47,866] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:08:47,867] {logging_mixin.py:104} INFO - [2021-05-15 07:08:47,867] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:08:48,551] {logging_mixin.py:104} INFO - [2021-05-15 07:08:48,550] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:08:48,551] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:08:48,568] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.717 seconds
+[2021-05-15 07:09:18,621] {scheduler_job.py:182} INFO - Started process (PID=990) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:09:18,622] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:09:18,623] {logging_mixin.py:104} INFO - [2021-05-15 07:09:18,623] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:09:19,100] {logging_mixin.py:104} INFO - [2021-05-15 07:09:19,099] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:09:19,100] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:09:19,120] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.503 seconds
+[2021-05-15 07:09:49,835] {scheduler_job.py:182} INFO - Started process (PID=1017) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:09:49,837] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:09:49,838] {logging_mixin.py:104} INFO - [2021-05-15 07:09:49,838] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:09:50,313] {logging_mixin.py:104} INFO - [2021-05-15 07:09:50,312] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:09:50,313] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:09:50,329] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.499 seconds
+[2021-05-15 07:10:21,137] {scheduler_job.py:182} INFO - Started process (PID=1044) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:10:21,139] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:10:21,139] {logging_mixin.py:104} INFO - [2021-05-15 07:10:21,139] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:10:21,537] {logging_mixin.py:104} INFO - [2021-05-15 07:10:21,536] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:10:21,538] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:10:21,554] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.422 seconds
+[2021-05-15 07:10:52,279] {scheduler_job.py:182} INFO - Started process (PID=1071) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:10:52,280] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:10:52,281] {logging_mixin.py:104} INFO - [2021-05-15 07:10:52,281] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:10:52,647] {logging_mixin.py:104} INFO - [2021-05-15 07:10:52,646] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:10:52,647] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:10:52,664] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.389 seconds
+[2021-05-15 07:11:23,536] {scheduler_job.py:182} INFO - Started process (PID=1098) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:11:23,537] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:11:23,537] {logging_mixin.py:104} INFO - [2021-05-15 07:11:23,537] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:11:23,937] {logging_mixin.py:104} INFO - [2021-05-15 07:11:23,937] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:11:23,938] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:11:23,954] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.422 seconds
+[2021-05-15 07:11:54,529] {scheduler_job.py:182} INFO - Started process (PID=1125) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:11:54,531] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:11:54,532] {logging_mixin.py:104} INFO - [2021-05-15 07:11:54,531] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:11:54,931] {logging_mixin.py:104} INFO - [2021-05-15 07:11:54,930] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:11:54,931] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:11:54,947] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.424 seconds
+[2021-05-15 07:12:25,391] {scheduler_job.py:182} INFO - Started process (PID=1152) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:12:25,392] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:12:25,393] {logging_mixin.py:104} INFO - [2021-05-15 07:12:25,392] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:12:25,763] {logging_mixin.py:104} INFO - [2021-05-15 07:12:25,762] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:12:25,763] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:12:25,780] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.393 seconds
+[2021-05-15 07:12:56,537] {scheduler_job.py:182} INFO - Started process (PID=1179) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:12:56,539] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:12:56,539] {logging_mixin.py:104} INFO - [2021-05-15 07:12:56,539] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:12:56,896] {logging_mixin.py:104} INFO - [2021-05-15 07:12:56,895] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:12:56,896] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:12:56,915] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.382 seconds
+[2021-05-15 07:13:27,817] {scheduler_job.py:182} INFO - Started process (PID=1206) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:13:27,818] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:13:27,819] {logging_mixin.py:104} INFO - [2021-05-15 07:13:27,819] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:13:28,495] {logging_mixin.py:104} INFO - [2021-05-15 07:13:28,494] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:13:28,496] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:13:28,521] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.708 seconds
+[2021-05-15 07:13:59,259] {scheduler_job.py:182} INFO - Started process (PID=1233) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:13:59,260] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:13:59,261] {logging_mixin.py:104} INFO - [2021-05-15 07:13:59,260] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:13:59,634] {logging_mixin.py:104} INFO - [2021-05-15 07:13:59,633] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:13:59,634] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:13:59,657] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.403 seconds
+[2021-05-15 07:14:30,560] {scheduler_job.py:182} INFO - Started process (PID=1260) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:14:30,561] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:14:30,562] {logging_mixin.py:104} INFO - [2021-05-15 07:14:30,562] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:14:30,928] {logging_mixin.py:104} INFO - [2021-05-15 07:14:30,927] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:14:30,928] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:14:30,954] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.398 seconds
+[2021-05-15 07:15:01,543] {scheduler_job.py:182} INFO - Started process (PID=1287) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:15:01,544] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:15:01,545] {logging_mixin.py:104} INFO - [2021-05-15 07:15:01,545] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:15:01,906] {logging_mixin.py:104} INFO - [2021-05-15 07:15:01,905] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:15:01,906] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:15:01,924] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.385 seconds
+[2021-05-15 07:15:32,161] {scheduler_job.py:182} INFO - Started process (PID=1314) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:15:32,162] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:15:32,163] {logging_mixin.py:104} INFO - [2021-05-15 07:15:32,163] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:15:32,536] {logging_mixin.py:104} INFO - [2021-05-15 07:15:32,536] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:15:32,537] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:15:32,554] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.398 seconds
+[2021-05-15 07:16:02,794] {scheduler_job.py:182} INFO - Started process (PID=1341) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:16:02,796] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:16:02,796] {logging_mixin.py:104} INFO - [2021-05-15 07:16:02,796] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:16:03,302] {logging_mixin.py:104} INFO - [2021-05-15 07:16:03,301] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:16:03,302] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:16:03,322] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.532 seconds
+[2021-05-15 07:16:33,343] {scheduler_job.py:182} INFO - Started process (PID=1368) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:16:33,344] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:16:33,345] {logging_mixin.py:104} INFO - [2021-05-15 07:16:33,345] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:16:33,724] {logging_mixin.py:104} INFO - [2021-05-15 07:16:33,723] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:16:33,724] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:16:33,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.402 seconds
+[2021-05-15 07:17:04,196] {scheduler_job.py:182} INFO - Started process (PID=1395) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:17:04,198] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:17:04,198] {logging_mixin.py:104} INFO - [2021-05-15 07:17:04,198] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:17:04,563] {logging_mixin.py:104} INFO - [2021-05-15 07:17:04,562] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:17:04,563] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:17:04,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.389 seconds
+[2021-05-15 07:17:35,575] {scheduler_job.py:182} INFO - Started process (PID=1422) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:17:35,577] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:17:35,578] {logging_mixin.py:104} INFO - [2021-05-15 07:17:35,577] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:17:36,181] {logging_mixin.py:104} INFO - [2021-05-15 07:17:36,180] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:17:36,182] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:17:36,202] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.632 seconds
+[2021-05-15 07:18:07,085] {scheduler_job.py:182} INFO - Started process (PID=1449) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:18:07,087] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:18:07,088] {logging_mixin.py:104} INFO - [2021-05-15 07:18:07,088] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:18:08,022] {logging_mixin.py:104} INFO - [2021-05-15 07:18:08,021] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:18:08,022] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:18:08,059] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.984 seconds
+[2021-05-15 07:18:38,673] {scheduler_job.py:182} INFO - Started process (PID=1476) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:18:38,675] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:18:38,685] {logging_mixin.py:104} INFO - [2021-05-15 07:18:38,685] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:18:39,714] {logging_mixin.py:104} INFO - [2021-05-15 07:18:39,713] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:18:39,715] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:18:39,745] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 1.086 seconds
+[2021-05-15 07:19:10,104] {scheduler_job.py:182} INFO - Started process (PID=1503) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:19:10,110] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:19:10,111] {logging_mixin.py:104} INFO - [2021-05-15 07:19:10,111] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:19:11,161] {logging_mixin.py:104} INFO - [2021-05-15 07:19:11,160] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:19:11,161] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:19:11,331] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 1.242 seconds
+[2021-05-15 07:19:41,443] {scheduler_job.py:182} INFO - Started process (PID=1530) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:19:41,446] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:19:41,448] {logging_mixin.py:104} INFO - [2021-05-15 07:19:41,448] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:19:42,547] {logging_mixin.py:104} INFO - [2021-05-15 07:19:42,543] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:19:42,548] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:19:42,580] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 1.148 seconds
+[2021-05-15 07:20:13,041] {scheduler_job.py:182} INFO - Started process (PID=1557) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:20:13,043] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:20:13,044] {logging_mixin.py:104} INFO - [2021-05-15 07:20:13,044] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:20:13,782] {logging_mixin.py:104} INFO - [2021-05-15 07:20:13,781] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:20:13,783] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:20:13,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.776 seconds
+[2021-05-15 07:20:44,690] {scheduler_job.py:182} INFO - Started process (PID=1584) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:20:44,692] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:20:44,693] {logging_mixin.py:104} INFO - [2021-05-15 07:20:44,692] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:20:45,637] {logging_mixin.py:104} INFO - [2021-05-15 07:20:45,636] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:20:45,638] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:20:45,669] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.996 seconds
+[2021-05-15 07:21:16,079] {scheduler_job.py:182} INFO - Started process (PID=1611) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:21:16,080] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:21:16,081] {logging_mixin.py:104} INFO - [2021-05-15 07:21:16,081] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:21:17,000] {logging_mixin.py:104} INFO - [2021-05-15 07:21:16,999] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:21:17,009] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:21:17,045] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.976 seconds
+[2021-05-15 07:21:47,665] {scheduler_job.py:182} INFO - Started process (PID=1638) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:21:47,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:21:47,667] {logging_mixin.py:104} INFO - [2021-05-15 07:21:47,667] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:21:49,342] {logging_mixin.py:104} INFO - [2021-05-15 07:21:49,342] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:21:49,343] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:21:49,364] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 1.744 seconds
+[2021-05-15 07:22:19,409] {scheduler_job.py:182} INFO - Started process (PID=1665) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:22:19,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:22:19,411] {logging_mixin.py:104} INFO - [2021-05-15 07:22:19,411] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:22:19,800] {logging_mixin.py:104} INFO - [2021-05-15 07:22:19,800] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:22:19,801] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:22:19,817] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.413 seconds
+[2021-05-15 07:22:50,267] {scheduler_job.py:182} INFO - Started process (PID=1692) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:22:50,269] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:22:50,269] {logging_mixin.py:104} INFO - [2021-05-15 07:22:50,269] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:22:50,635] {logging_mixin.py:104} INFO - [2021-05-15 07:22:50,635] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:22:50,636] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:22:50,651] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.388 seconds
+[2021-05-15 07:23:20,905] {scheduler_job.py:182} INFO - Started process (PID=1719) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:23:20,906] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:23:20,907] {logging_mixin.py:104} INFO - [2021-05-15 07:23:20,906] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:23:21,276] {logging_mixin.py:104} INFO - [2021-05-15 07:23:21,275] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:23:21,276] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:23:21,293] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.392 seconds
+[2021-05-15 07:23:51,492] {scheduler_job.py:182} INFO - Started process (PID=1746) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:23:51,493] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:23:51,494] {logging_mixin.py:104} INFO - [2021-05-15 07:23:51,493] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:23:51,855] {logging_mixin.py:104} INFO - [2021-05-15 07:23:51,855] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:23:51,856] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:23:51,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.385 seconds
+[2021-05-15 07:24:22,158] {scheduler_job.py:182} INFO - Started process (PID=1773) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:24:22,159] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:24:22,160] {logging_mixin.py:104} INFO - [2021-05-15 07:24:22,160] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:24:22,604] {logging_mixin.py:104} INFO - [2021-05-15 07:24:22,603] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:24:22,604] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:24:22,621] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.467 seconds
+[2021-05-15 07:24:53,479] {scheduler_job.py:182} INFO - Started process (PID=1801) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:24:53,481] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:24:53,482] {logging_mixin.py:104} INFO - [2021-05-15 07:24:53,482] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:24:53,855] {logging_mixin.py:104} INFO - [2021-05-15 07:24:53,854] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:24:53,855] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:24:53,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.399 seconds
+[2021-05-15 07:25:24,633] {scheduler_job.py:182} INFO - Started process (PID=1828) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:25:24,635] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:25:24,635] {logging_mixin.py:104} INFO - [2021-05-15 07:25:24,635] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:25:24,992] {logging_mixin.py:104} INFO - [2021-05-15 07:25:24,992] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:25:24,993] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:25:25,011] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.381 seconds
+[2021-05-15 07:25:55,214] {scheduler_job.py:182} INFO - Started process (PID=1855) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:25:55,216] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:25:55,216] {logging_mixin.py:104} INFO - [2021-05-15 07:25:55,216] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:25:55,595] {logging_mixin.py:104} INFO - [2021-05-15 07:25:55,594] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:25:55,595] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:25:55,612] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.402 seconds
+[2021-05-15 07:26:25,786] {scheduler_job.py:182} INFO - Started process (PID=1882) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:26:25,787] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:26:25,788] {logging_mixin.py:104} INFO - [2021-05-15 07:26:25,788] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:26:26,171] {logging_mixin.py:104} INFO - [2021-05-15 07:26:26,170] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:26:26,171] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:26:26,189] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.407 seconds
+[2021-05-15 07:26:56,353] {scheduler_job.py:182} INFO - Started process (PID=1909) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:26:56,354] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:26:56,355] {logging_mixin.py:104} INFO - [2021-05-15 07:26:56,355] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:26:57,036] {logging_mixin.py:104} INFO - [2021-05-15 07:26:57,035] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:26:57,037] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:26:57,062] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.713 seconds
+[2021-05-15 07:27:27,632] {scheduler_job.py:182} INFO - Started process (PID=1936) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:27:27,634] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:27:27,635] {logging_mixin.py:104} INFO - [2021-05-15 07:27:27,634] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:27:28,211] {logging_mixin.py:104} INFO - [2021-05-15 07:27:28,209] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:27:28,211] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:27:28,237] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.610 seconds
+[2021-05-15 07:27:59,152] {scheduler_job.py:182} INFO - Started process (PID=1965) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:27:59,154] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:27:59,155] {logging_mixin.py:104} INFO - [2021-05-15 07:27:59,155] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:27:59,683] {logging_mixin.py:104} INFO - [2021-05-15 07:27:59,683] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:27:59,684] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:27:59,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.570 seconds
+[2021-05-15 07:28:30,257] {scheduler_job.py:182} INFO - Started process (PID=1992) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:28:30,259] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:28:30,260] {logging_mixin.py:104} INFO - [2021-05-15 07:28:30,260] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:28:30,729] {logging_mixin.py:104} INFO - [2021-05-15 07:28:30,728] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:28:30,729] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:28:30,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.494 seconds
+[2021-05-15 07:29:00,911] {scheduler_job.py:182} INFO - Started process (PID=2019) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:29:00,912] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:29:00,913] {logging_mixin.py:104} INFO - [2021-05-15 07:29:00,913] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:29:01,551] {logging_mixin.py:104} INFO - [2021-05-15 07:29:01,551] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:29:01,552] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:29:01,568] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.663 seconds
+[2021-05-15 07:29:32,211] {scheduler_job.py:182} INFO - Started process (PID=2048) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:29:32,213] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:29:32,214] {logging_mixin.py:104} INFO - [2021-05-15 07:29:32,214] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:29:32,758] {logging_mixin.py:104} INFO - [2021-05-15 07:29:32,758] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:29:32,759] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:29:32,776] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.570 seconds
+[2021-05-15 07:30:03,057] {scheduler_job.py:182} INFO - Started process (PID=2075) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:30:03,058] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:30:03,059] {logging_mixin.py:104} INFO - [2021-05-15 07:30:03,059] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:30:03,543] {logging_mixin.py:104} INFO - [2021-05-15 07:30:03,543] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:30:03,544] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:30:03,561] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.512 seconds
+[2021-05-15 07:30:34,056] {scheduler_job.py:182} INFO - Started process (PID=2102) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:30:34,057] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:30:34,058] {logging_mixin.py:104} INFO - [2021-05-15 07:30:34,058] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:30:34,529] {logging_mixin.py:104} INFO - [2021-05-15 07:30:34,529] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:30:34,530] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:30:34,546] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.496 seconds
+[2021-05-15 07:31:05,409] {scheduler_job.py:182} INFO - Started process (PID=2130) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:31:05,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:31:05,411] {logging_mixin.py:104} INFO - [2021-05-15 07:31:05,411] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:31:05,945] {logging_mixin.py:104} INFO - [2021-05-15 07:31:05,945] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:31:05,946] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:31:05,964] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.560 seconds
+[2021-05-15 07:31:36,227] {scheduler_job.py:182} INFO - Started process (PID=2161) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:31:36,236] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:31:36,237] {logging_mixin.py:104} INFO - [2021-05-15 07:31:36,236] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:31:36,893] {logging_mixin.py:104} INFO - [2021-05-15 07:31:36,892] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:31:36,893] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:31:36,916] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.694 seconds
+[2021-05-15 07:32:06,960] {scheduler_job.py:182} INFO - Started process (PID=2191) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:32:06,962] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:32:06,962] {logging_mixin.py:104} INFO - [2021-05-15 07:32:06,962] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:32:07,665] {logging_mixin.py:104} INFO - [2021-05-15 07:32:07,665] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:32:07,666] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:32:07,682] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.727 seconds
+[2021-05-15 07:32:37,962] {scheduler_job.py:182} INFO - Started process (PID=2218) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:32:37,964] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:32:37,965] {logging_mixin.py:104} INFO - [2021-05-15 07:32:37,965] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:32:38,391] {logging_mixin.py:104} INFO - [2021-05-15 07:32:38,390] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:32:38,391] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:32:38,411] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.454 seconds
+[2021-05-15 07:33:09,384] {scheduler_job.py:182} INFO - Started process (PID=2247) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:33:09,386] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:33:09,387] {logging_mixin.py:104} INFO - [2021-05-15 07:33:09,387] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:33:10,000] {logging_mixin.py:104} INFO - [2021-05-15 07:33:09,999] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:33:10,002] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:33:10,037] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.660 seconds
+[2021-05-15 07:33:40,080] {scheduler_job.py:182} INFO - Started process (PID=2276) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:33:40,082] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:33:40,084] {logging_mixin.py:104} INFO - [2021-05-15 07:33:40,084] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:33:40,673] {logging_mixin.py:104} INFO - [2021-05-15 07:33:40,672] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:33:40,674] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:33:40,698] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.628 seconds
+[2021-05-15 07:34:10,768] {scheduler_job.py:182} INFO - Started process (PID=2306) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:34:10,769] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:34:10,770] {logging_mixin.py:104} INFO - [2021-05-15 07:34:10,770] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:34:11,320] {logging_mixin.py:104} INFO - [2021-05-15 07:34:11,320] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:34:11,321] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:34:11,337] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.574 seconds
+[2021-05-15 07:34:41,494] {scheduler_job.py:182} INFO - Started process (PID=2333) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:34:41,497] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:34:41,501] {logging_mixin.py:104} INFO - [2021-05-15 07:34:41,499] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:34:42,228] {logging_mixin.py:104} INFO - [2021-05-15 07:34:42,227] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:34:42,229] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:34:42,247] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.758 seconds
+[2021-05-15 07:35:12,341] {scheduler_job.py:182} INFO - Started process (PID=2364) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:35:12,342] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:35:12,343] {logging_mixin.py:104} INFO - [2021-05-15 07:35:12,343] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:35:12,711] {logging_mixin.py:104} INFO - [2021-05-15 07:35:12,711] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:35:12,712] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:35:12,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.391 seconds
+[2021-05-15 07:35:43,350] {scheduler_job.py:182} INFO - Started process (PID=2391) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:35:43,351] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:35:43,352] {logging_mixin.py:104} INFO - [2021-05-15 07:35:43,352] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:35:43,737] {logging_mixin.py:104} INFO - [2021-05-15 07:35:43,736] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:35:43,737] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:35:43,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.416 seconds
+[2021-05-15 07:36:14,047] {scheduler_job.py:182} INFO - Started process (PID=2415) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:36:14,049] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:36:14,050] {logging_mixin.py:104} INFO - [2021-05-15 07:36:14,050] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:36:14,576] {logging_mixin.py:104} INFO - [2021-05-15 07:36:14,575] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:36:14,576] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:36:14,593] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.551 seconds
+[2021-05-15 07:36:44,679] {scheduler_job.py:182} INFO - Started process (PID=2445) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:36:44,680] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:36:44,680] {logging_mixin.py:104} INFO - [2021-05-15 07:36:44,680] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:36:45,048] {logging_mixin.py:104} INFO - [2021-05-15 07:36:45,048] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:36:45,049] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:36:45,067] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.392 seconds
+[2021-05-15 07:37:15,324] {scheduler_job.py:182} INFO - Started process (PID=2472) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:37:15,326] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:37:15,327] {logging_mixin.py:104} INFO - [2021-05-15 07:37:15,327] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:37:15,786] {logging_mixin.py:104} INFO - [2021-05-15 07:37:15,786] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:37:15,787] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:37:15,803] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.486 seconds
+[2021-05-15 07:37:46,368] {scheduler_job.py:182} INFO - Started process (PID=2501) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:37:46,370] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:37:46,371] {logging_mixin.py:104} INFO - [2021-05-15 07:37:46,371] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:37:46,729] {logging_mixin.py:104} INFO - [2021-05-15 07:37:46,728] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:37:46,729] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:37:46,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.382 seconds
+[2021-05-15 07:38:17,738] {scheduler_job.py:182} INFO - Started process (PID=2528) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:38:17,739] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:38:17,740] {logging_mixin.py:104} INFO - [2021-05-15 07:38:17,740] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:38:18,283] {logging_mixin.py:104} INFO - [2021-05-15 07:38:18,282] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:38:18,283] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:38:18,308] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.574 seconds
+[2021-05-15 07:38:49,316] {scheduler_job.py:182} INFO - Started process (PID=2555) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:38:49,317] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:38:49,318] {logging_mixin.py:104} INFO - [2021-05-15 07:38:49,318] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:38:49,729] {logging_mixin.py:104} INFO - [2021-05-15 07:38:49,728] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:38:49,730] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:38:49,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.433 seconds
+[2021-05-15 07:39:19,873] {scheduler_job.py:182} INFO - Started process (PID=2582) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:39:19,874] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:39:19,875] {logging_mixin.py:104} INFO - [2021-05-15 07:39:19,875] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:39:20,408] {logging_mixin.py:104} INFO - [2021-05-15 07:39:20,407] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:39:20,409] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:39:20,430] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.565 seconds
+[2021-05-15 07:39:50,978] {scheduler_job.py:182} INFO - Started process (PID=2609) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:39:50,979] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:39:50,980] {logging_mixin.py:104} INFO - [2021-05-15 07:39:50,980] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:39:51,506] {logging_mixin.py:104} INFO - [2021-05-15 07:39:51,505] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:39:51,507] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:39:51,527] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.558 seconds
+[2021-05-15 07:40:22,371] {scheduler_job.py:182} INFO - Started process (PID=2636) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:40:22,372] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:40:22,373] {logging_mixin.py:104} INFO - [2021-05-15 07:40:22,373] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:40:22,730] {logging_mixin.py:104} INFO - [2021-05-15 07:40:22,729] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:40:22,730] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:40:22,747] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.380 seconds
+[2021-05-15 07:40:53,260] {scheduler_job.py:182} INFO - Started process (PID=2663) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:40:53,262] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:40:53,263] {logging_mixin.py:104} INFO - [2021-05-15 07:40:53,263] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:40:53,627] {logging_mixin.py:104} INFO - [2021-05-15 07:40:53,626] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:40:53,627] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:40:53,643] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.387 seconds
+[2021-05-15 07:41:24,596] {scheduler_job.py:182} INFO - Started process (PID=2690) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:41:24,597] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:41:24,597] {logging_mixin.py:104} INFO - [2021-05-15 07:41:24,597] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:41:25,046] {logging_mixin.py:104} INFO - [2021-05-15 07:41:25,046] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:41:25,047] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:41:25,066] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.474 seconds
+[2021-05-15 07:41:55,434] {scheduler_job.py:182} INFO - Started process (PID=2717) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:41:55,435] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:41:55,436] {logging_mixin.py:104} INFO - [2021-05-15 07:41:55,436] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:41:55,786] {logging_mixin.py:104} INFO - [2021-05-15 07:41:55,786] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:41:55,787] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:41:55,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.374 seconds
+[2021-05-15 07:42:26,110] {scheduler_job.py:182} INFO - Started process (PID=2744) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:42:26,111] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:42:26,111] {logging_mixin.py:104} INFO - [2021-05-15 07:42:26,111] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:42:26,476] {logging_mixin.py:104} INFO - [2021-05-15 07:42:26,476] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:42:26,477] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:42:26,493] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.387 seconds
+[2021-05-15 07:42:57,387] {scheduler_job.py:182} INFO - Started process (PID=2771) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:42:57,389] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:42:57,389] {logging_mixin.py:104} INFO - [2021-05-15 07:42:57,389] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:42:57,754] {logging_mixin.py:104} INFO - [2021-05-15 07:42:57,753] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:42:57,754] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:42:57,770] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.388 seconds
+[2021-05-15 07:43:28,114] {scheduler_job.py:182} INFO - Started process (PID=2798) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:43:28,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:43:28,116] {logging_mixin.py:104} INFO - [2021-05-15 07:43:28,116] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:43:28,488] {logging_mixin.py:104} INFO - [2021-05-15 07:43:28,487] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:43:28,488] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:43:28,526] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.416 seconds
+[2021-05-15 07:43:58,917] {scheduler_job.py:182} INFO - Started process (PID=2825) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:43:58,918] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:43:58,920] {logging_mixin.py:104} INFO - [2021-05-15 07:43:58,919] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:43:59,309] {logging_mixin.py:104} INFO - [2021-05-15 07:43:59,308] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:43:59,310] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:43:59,327] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.415 seconds
+[2021-05-15 07:44:29,521] {scheduler_job.py:182} INFO - Started process (PID=2852) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:44:29,522] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:44:29,523] {logging_mixin.py:104} INFO - [2021-05-15 07:44:29,523] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:44:29,896] {logging_mixin.py:104} INFO - [2021-05-15 07:44:29,895] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:44:29,896] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:44:29,913] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.396 seconds
+[2021-05-15 07:45:00,853] {scheduler_job.py:182} INFO - Started process (PID=2879) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:45:00,854] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:45:00,854] {logging_mixin.py:104} INFO - [2021-05-15 07:45:00,854] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:45:01,228] {logging_mixin.py:104} INFO - [2021-05-15 07:45:01,227] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:45:01,228] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:45:01,245] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.398 seconds
+[2021-05-15 07:45:31,324] {scheduler_job.py:182} INFO - Started process (PID=2906) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:45:31,325] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:45:31,326] {logging_mixin.py:104} INFO - [2021-05-15 07:45:31,326] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:45:31,692] {logging_mixin.py:104} INFO - [2021-05-15 07:45:31,691] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:45:31,692] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:45:31,709] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.390 seconds
+[2021-05-15 07:46:01,987] {scheduler_job.py:182} INFO - Started process (PID=2933) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:46:01,988] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:46:01,989] {logging_mixin.py:104} INFO - [2021-05-15 07:46:01,989] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:46:02,352] {logging_mixin.py:104} INFO - [2021-05-15 07:46:02,351] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:46:02,352] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:46:02,371] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.388 seconds
+[2021-05-15 07:46:32,710] {scheduler_job.py:182} INFO - Started process (PID=2960) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:46:32,712] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:46:32,712] {logging_mixin.py:104} INFO - [2021-05-15 07:46:32,712] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:46:33,266] {logging_mixin.py:104} INFO - [2021-05-15 07:46:33,263] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:46:33,266] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:46:33,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.582 seconds
+[2021-05-15 07:47:04,192] {scheduler_job.py:182} INFO - Started process (PID=2987) to work on /opt/airflow/dags/q2dag.py
+[2021-05-15 07:47:04,193] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/q2dag.py for tasks to queue
+[2021-05-15 07:47:04,194] {logging_mixin.py:104} INFO - [2021-05-15 07:47:04,194] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:47:04,604] {logging_mixin.py:104} INFO - [2021-05-15 07:47:04,604] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/q2dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/q2dag.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-15 07:47:04,605] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/q2dag.py
+[2021-05-15 07:47:04,767] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/q2dag.py took 0.579 seconds
